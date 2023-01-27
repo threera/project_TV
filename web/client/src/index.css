@@ -1,0 +1,21 @@
+body {
+
+  background-color: rgb(84 155 193);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .shadow-lg-home-1 {
+    @apply flex flex-col items-start justify-between shadow-lg rounded-md bg-white p-3;
+  }
+}
+
+@layer components {
+  .shadow-lg-home-2 {
+    @apply shadow-lg rounded-md h-screen bg-white p-2;
+  }
+}
